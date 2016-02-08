@@ -1,5 +1,5 @@
 angular
-  .module('AdamPortfolio', ['ui.router'])
+  .module('AdamPortfolio', ['ui.router', 'ngAnimate'])
   .config(MainRouter)
 
 function MainRouter($stateProvider, $urlRouterProvider){

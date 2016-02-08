@@ -82,3 +82,15 @@ a.back-to-top {
 h3 {
   font-size: 1.5em;
 }
+
+
+.ng-enter {
+  transition: 1.25s;
+  opacity: 0; }
+.ng-enter-active {
+  opacity: 1; }
+/*.ng-leave {
+  transition: 0.5s;
+  opacity: 1; }
+.ng-leave-active {
+  opacity: 0; }*/
