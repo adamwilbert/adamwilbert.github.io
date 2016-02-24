@@ -4,7 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background: cover;
-  font-family: Futura;
+  font-family: Futura, Helvetica, Arial, Sans-serif;
   margin-top: 1%;
 }
 
@@ -58,14 +58,6 @@ a.back-to-top {
   color: white;
 }
 
-#social-media a, .header a, #email{
-  transition: opacity 0.5s ease;
-  text-decoration: none;
-}
-#social-media a:hover, .header a:hover, #email:hover {
-  opacity: .5;
-  text-decoration: none;
-}
 
 .row-centered {
     text-align:center;
@@ -96,21 +88,35 @@ h3 {
 .ng-enter-active {
   opacity: 1; }
 
-
+@media screen and (min-device-width: 600px) {
+#social-media a, .header a, #email{
+  transition: opacity 0.5s ease;
+  text-decoration: none;
+}
+#social-media a:hover, .header a:hover, #email:hover {
+  opacity: .5;
+  text-decoration: none;
+}
+}
 @media screen and (max-device-width: 550px) {
   body{
-    margin-top: 7%;
+    margin-top: 5%;
   }
   #name{
     margin-bottom: 10%;
-    font-size: 4em;
+    font-size: 3.5em;
   }
     .sm-icons {
         margin-top: 15%;
-        width: 100px;
+        width: 125px;
+    }
+    p {
+    font-size: 1em;
     }
     #main-display{
+      font-size: 4em;
       margin-top: 15%;
+      line-height: 200%;
     }
     .header{
       margin-top: 15%;
