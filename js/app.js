@@ -20,8 +20,10 @@ function MainRouter($stateProvider, $urlRouterProvider){
         url:'/contact',
         templateUrl: 'contact.html'
       })
+      .state('resume',{
+        url:'/resume',
+        templateUrl: 'resume.html'
+      })
       // $urlRouterProvider.otherwise("/main")
 
 }
-
-
