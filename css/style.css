@@ -35,7 +35,7 @@ p {
   font-size: .5em;
 }
 
-#about-text{
+.about-text{
   font-size: .5em;
 }
 
@@ -56,6 +56,9 @@ a.back-to-top {
 }
 #email{
   color: white;
+}
+#skills{
+  margin-top: 5%;
 }
 
 
