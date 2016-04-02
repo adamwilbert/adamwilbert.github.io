@@ -1,4 +1,5 @@
 body {
+  min-height: 100vh;
   background: url('/css/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -101,7 +102,7 @@ h3 {
   text-decoration: none;
 }
 }
-@media screen and (max-device-width: 550px) {
+@media screen and (max-device-width: 800px) {
   body{
     margin-top: 5%;
   }
@@ -109,22 +110,23 @@ h3 {
     margin-bottom: 10%;
     font-size: 3.5em;
   }
-    .sm-icons {
-        margin-top: 15%;
-        width: 125px;
-    }
-    p {
-    font-size: 1em;
-    }
-    #main-display{
-      font-size: 4em;
+  .sm-icons {
       margin-top: 15%;
-      line-height: 200%;
-    }
-    .header{
-      margin-top: 15%;
-    }
-    .navlink a {
-      font-size: 3.25em;
-    }
+      width: 125px;
+  }
+  p {
+    font-size: 1.2em;
+  }
+
+  #main-display{
+    font-size: 4em;
+    margin-top: 15%;
+    line-height: 200%;
+  }
+  .header{
+    margin-top: 15%;
+  }
+  .navlink a {
+    font-size: 3.25em;
+  }
 }
